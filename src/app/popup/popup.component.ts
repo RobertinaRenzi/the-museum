@@ -25,8 +25,7 @@ export class PopupComponent implements OnInit {
 
   show(index: number) {
     const width = index * this.img.nativeElement.offsetWidth;
-    this.myDiv.nativeElement.setAttribute("style", "transform: translate(" + -width +"px,0)");
-
+    this.myDiv.nativeElement.setAttribute("style", "transform: translate(" + -width + "px,0)");
   }
 
 }
