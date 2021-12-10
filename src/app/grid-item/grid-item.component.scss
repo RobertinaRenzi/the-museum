@@ -1,0 +1,39 @@
+
+    img {
+        width: 1150px;
+        overflow: hidden;
+        transition-duration: 0.8s;
+        transition-property: transform;
+    }
+    img:hover {
+        transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        cursor: pointer;
+    }
+    .descr-bt {
+        padding-top: 35px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: left;
+        padding: 1.2vw 1.2vw;
+    }
+    .date-bt {
+        padding: 1.2vw 1.2vw;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: right;
+
+    }
+
+.btn-primary {
+    color: #fff;
+    background: url('../../assets/images/thumb-1920-562747.jpg') no-repeat center center;
+    background-size: 96% 96%;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .date-bt {
+        margin-left: 62px;
+    }
+}

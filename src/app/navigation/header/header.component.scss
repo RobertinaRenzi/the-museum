@@ -1,0 +1,60 @@
+.navbar-light .navbar-nav  .nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-left: 2vw;
+}
+
+.navbar-light {
+    padding: 0.7vw 8.2vw 0 5.2vw;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1;
+    color: #fff;
+}
+.navbar-brand:hover {
+   color:#ffffff
+}
+
+.bg-dark {
+    background-color: #161616 !important;
+}
+.social {
+    width: 5.0rem;
+    border-right: 1px solid #666;
+    height: 43px;
+    background-color: #d6001c;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 4px 3px 19px;
+    z-index: 999;
+}
+.social2 {
+    width: 9.0rem;
+    height: 43px;
+    background-color: #d6001c;
+    z-index: 999;
+    color:#ffffff;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.6rem
+    }
+}
+
+    
+
+

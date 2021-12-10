@@ -1,0 +1,71 @@
+.popup-div {
+    .x-style {
+        text-align: right;
+        font-size: 2.2rem;
+        cursor: pointer;
+        
+    }
+    height: auto;
+    background-color: #232323;
+    width: 100%;
+    color: #fff;
+    padding: 3.7rem;
+    font-size: 1.2rem;
+    // position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 888;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 61vw;
+  }
+  
+  
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  #slider {
+    flex-wrap: nowrap;
+    display: flex;
+    transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title-div {
+    width: 95%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .description-div {
+    width: 60%;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+  }
+
+  @media (max-width: 768px) {
+    .description-div {
+      width: 100%;
+    }
+}
+  

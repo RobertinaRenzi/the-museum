@@ -1,0 +1,79 @@
+
+  .main-bg {
+      .maintxt {
+        position: absolute;
+        width: 3.2vw;
+        line-height: 1;
+        color: #fff;
+        font-size: 4.7rem;
+        font-weight: 300;
+        bottom: 13vw;
+        left: 6vw;
+      }
+      .secondarytxt {
+        position: absolute;
+        width: 61.2vw;
+        line-height: 1;
+        color: #969696;
+        font-size: 2.5vw;
+        bottom: 4vw;
+        left: 6vw;
+    }
+    background: url('../../assets/images/thumb-1920-700521.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 33vw;
+    position: relative;
+  }
+
+  .dw-container {
+      select {
+        width: 26rem;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background-color: transparent;
+        margin-left: 1rem;
+        font-size: 23px;
+        font-weight: 500;
+      }
+
+    .align-right {
+        text-align: right;
+    }
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .padding-25 {
+        padding: 1.0vw;
+        font-size: 1.2rem;
+    }
+    .content {
+        max-width: 1214px;
+    }
+  }
+ 
+
+  .collapse {
+    transition: all 0.1s ease-in-out;
+    display: block !important;
+    overflow: hidden !important;
+    max-height: 0;
+    z-index: 888;
+    max-height: 0;
+}
+
+.collapse.in {
+    transition: all 0.8s ease-in;
+    max-height: 9999px;
+}
+
+@media (max-width: 768px) {
+    .main-bg {
+        height: 43vw;
+    }
+}
+

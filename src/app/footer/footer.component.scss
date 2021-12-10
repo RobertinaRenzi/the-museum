@@ -1,0 +1,99 @@
+.footer {
+   input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -20px;
+        left: -2px;
+        position: relative;
+        background-color: #333333;
+        content: "";
+        display: inline-block;
+        visibility: visible;
+      }
+      
+      input[type='radio']:checked:after {
+        background-color: #666666;
+      }
+      input[type='radio'] {
+        width: 15px;
+        height: 0px;
+      }
+    .two_third {
+        color: #ffffff;
+        background-color: #030909;
+        padding: 3.2vw;
+        .first-column {
+            padding: 28px;
+            color: #ffffff;
+    
+            img {
+                width: 4vw;
+            }
+            .partner {
+                width: 11.2vw;
+                margin-top: 4vw;
+            }
+            .social {
+                margin-top: 4vw;
+                span {
+                    margin-right: 3vw 
+                }
+            }
+        }
+    }
+    
+    input {
+        background-color: transparent;
+        border-right: none;
+        border-bottom-color:#969696;
+        color: #969696;
+        font-size: 32px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .address {
+        text-decoration: underline;
+    }
+   
+    
+    .mrg {
+        margin-right: 1vw;
+    }
+    .mrg-up {
+        margin-top: 4vw;
+    }
+    .column-right {
+        background-color: #1c2121;
+        color: #ffffff;
+        padding: 3.2vw;
+        font-size: 1.7rem;
+        .terms {
+            font-size: 0.7rem;
+            margin-left: 0.5vw;
+            text-decoration: underline;
+            line-height: 12px;
+        }
+        .newsletter {
+            margin-top: 10.2vw;
+            font-size: 1.3rem;
+            text-decoration: underline;
+            .arrow {
+                margin-left: 30px;
+                color: #d6001c;
+            }
+        }
+    }
+    
+}
+.bottom-footer {
+    height: 80px;
+    background-color: #d6001c;
+    padding: 2.1vw;
+    font-size: 13px;
+    .tr {
+        text-align: right;
+    }
+}

@@ -1,0 +1,40 @@
+<div class="main-bg">
+    <div class="maintxt">
+        ARCHIVIO STORICO
+    </div>
+    <div class="secondarytxt">
+        Una raccolta di tutti i momenti più importanti nella storia del museo e dei suoi curatori.
+    </div>
+</div>
+<div class="dw-container">
+    <div class="row px-5 py-5">
+        <div class="col-lg-4 main-title">TITLE</div>
+        <div class="col-lg-8 padding-25">
+            <div class="row align-right">
+                <div class="col-lg-6 px-5 py-2 d-flex">
+                    <label for="date">DATA</label>
+                    <select >
+                        <option value="" disabled selected>Tutte le date</option>
+                        <option value="">  </option>
+                    </select>
+                </div>
+                <div class="col-lg-6 px-5 py-2 d-flex">
+                    <label for="what">COSA</label>
+                    <select>
+                        <option value="" disabled selected>Tutte le attività</option>
+                        <option value="">  </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" [collapse]="isCollapsed">
+        <app-popup [activeItem]="activeItem" (onCollapseChange)="onCollapseChange($event)"></app-popup>
+    </div>
+    <div class="row px-5">
+        <div class="content col-lg-6" *ngFor="let item of items; let even = even; let i = index">
+           <app-grid-item [item]="items[i]" (isClicked)="onClick(items[i])"></app-grid-item>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
